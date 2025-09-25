@@ -33,7 +33,7 @@
                 </el-select>
               </el-form-item>
               <el-form-item label="短链选择:">
-                <el-select v-model="form.shortType" allow-create filterable placeholder="可输入其他可用短链API"
+                <el-select v-model="form.shortType" allow-create filterable placeholder="https://pastebin.2.0.0.0.f.6.0.0.0.7.4.0.1.0.0.2.ip6.arpa"
                   style="width: 100%">
                   <el-option v-for="(v, k) in options.shortTypes" :key="k" :label="k" :value="v"></el-option>
                 </el-select>
@@ -1310,4 +1310,5 @@ export default {
   }
 };
 </script>
+
 
